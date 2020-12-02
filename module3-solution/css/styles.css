@@ -1,0 +1,125 @@
+/********ELEMENT STYLING********/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    background-color: #582e44;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #bd7344;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #582e44;
+}
+
+/********NAVBAR STYLING********/
+
+.navbar {
+  background-color: #a8293c;
+  border: 0;
+  box-shadow: 0 0 5px #381829;
+  border-radius: 0;
+}
+
+.navbar-header h1 {
+  font-size: 1.4em;
+  margin-top: 0px;
+  font-family: 'Rye', cursive;
+  color: #d7b957;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #d7b957;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(215, 185, 67, 0.3);
+}
+
+.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(88, 46, 68, 0.3);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #d7b957;
+}
+
+#nav-list li {
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #d7b957;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  padding: 20px;
+}
+
+#collapsed-nav {
+   background-color: #d7b957;
+   border: 0;
+}
+
+
+/************BASE STYLING********/
+
+#sections {
+  padding: 20px;
+}
+
+#chicken, #beef, #sushi {
+  background-color: #bd7344;
+  padding: 20px;
+  font-size: 1.2em;
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px auto 0;
+  position: relative;
+}
+
+#chicken img, #beef img, #sushi img {
+  width: 100%;
+  box-shadow: 0 0 5px #582e44;
+  margin: 10px 0 20px;
+}
+
+#chicken a, #beef a, #sushi a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #a8293c;
+  font-weight: bold;
+}
+
+#chicken b, #beef b, #sushi b {
+  color: #582e44;
+}
+
+
+/*************DESKTOP************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*************TABLET*************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*************MOBILE*************/
+@media (max-width: 575.98px) {
+
+}
