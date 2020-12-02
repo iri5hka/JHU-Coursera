@@ -54,11 +54,9 @@ h3 {
   background-color: #d7b957;
 }
 
-#nav-list li {
-  font-size: 1.3em;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  overflow: hidden;
+#collapsed-nav {
+   overflow: hidden;
+   border: 0;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -68,11 +66,15 @@ h3 {
   margin-top: -8px;
   margin-bottom: -8px;
   padding: 20px;
+  border-top: 1.5px solid #a8293c;
+  overflow: hidden;
 }
 
-#collapsed-nav {
-   background-color: #d7b957;
-   border: 0;
+.nav li a {
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  overflow: hidden;
 }
 
 
@@ -86,6 +88,7 @@ h3 {
   background-color: #bd7344;
   padding: 20px;
   font-size: 1.2em;
+  color: #1A1A1A;
   width: 100%;
   border-radius: 10px;
   margin: 20px auto 0;
