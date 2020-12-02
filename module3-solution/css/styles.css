@@ -116,10 +116,23 @@ h3 {
 
 /*************TABLET*************/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #sections {
+  padding: 0;
+}
+#chicken, #beef, #sushi {
+  margin: 20px 0;
+}
 
 }
 
 /*************MOBILE*************/
 @media (max-width: 575.98px) {
 
+#sections {
+  padding: 5px;
+}
+
+#chicken, #beef, #sushi {
+  margin: 20px 0;
+}
 }
